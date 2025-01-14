@@ -102,26 +102,45 @@ console.log( age3 );
 
 //12.Objects 
 //Creating an object with the object literal syntax
-const student1={
-    firstName:"Jonas",
-    lastName:"Ahmed",
-    birthYear:2021,
-    age:2024-2021,
-    friends:["Friend1","Friend2"]
-};
-console.log( student1.firstName )
-console.log( student1["firstName"] )
+// const student1={
+//     firstName:"Jonas",
+//     lastName:"Ahmed",
+//     birthYear:2021,
+//     age:2024-2021,
+//     friends:["Friend1","Friend2"]
+// };
+// console.log( student1.firstName )
+// console.log( student1["firstName"] )
 
-//Using the bracket notation to compute AND then retrieve
-let nameKey="Name"
-console.log( student1["last"+nameKey] )
+// //Using the bracket notation to compute AND then retrieve
+// let nameKey="Name"
+// console.log( student1["last"+nameKey] )
 
-//printing the object
-console.log( `Hi this is ${student1.firstName} ${student1.lastName},
-    And my age is ${student1["age"]} and i have ${student1.friends.length} Friends` )
+// //printing the object
+// console.log( `Hi this is ${student1.firstName} ${student1.lastName},
+//     And my age is ${student1["age"]} and i have ${student1.friends.length} Friends` )
 
+//14. Object Methods 
+// Adding a Function to the Object , Using the data members inside that function , Creating a new member 
+// const toyota11={
+//     model:"HGH",
+//     release:"1995",
+//     milage:"19000kms",
+//     gears:["Front","rear"],
+//     old:function(){
+//         console.log( `The car is ${2025-this.release} years Old` );
+//         return 2025-this.release;
+//     },
+//     setOld:function(){
+//         this.age=2025-this.release;
+//         console.log( this.age );
+//         return this.age;
+//     }
+//     //DONT USE ARROW FUNCTIONS , THEY DONT HAVE THIS
 
-
+// }
+// toyota11.old()
+// toyota11.setOld();
 
 
 
